@@ -3,10 +3,15 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  width: 200px;
-  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 5px solid black;
   border-radius: 100%;
-  background-color: grey;
 `;
 
 const Marker = ({ text }) => (
