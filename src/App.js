@@ -1,13 +1,17 @@
 import React from 'react';
+import styled from 'styled-components';
 
 import GoogleMap from './components/GoogleMap';
 
-import './App.css';
+const Wrapper = styled.section`
+  width: 100vw;
+  height: 100vh;
+`;
 
 const App = () => (
-  <div className="app">
+  <Wrapper>
     <GoogleMap />
-  </div>
+  </Wrapper>
 );
 
 export default App;

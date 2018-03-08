@@ -1,8 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
 import GoogleMapReact from 'google-map-react';
 
-import './Map.css';
+const Wrapper = styled.main`
+  width: 100%;
+  height: 100%;
+`;
 
 const Marker = ({ text }) => <div>{text}</div>;
 
@@ -11,7 +15,7 @@ Marker.propTypes = {
 };
 
 const Map = ({ center, zoom }) => (
-  <div className="map">
+  <Wrapper>
     <GoogleMapReact
       bootstrapURLKeys={{
         key: process.env.REACT_APP_MAP_KEY,
@@ -25,7 +29,7 @@ const Map = ({ center, zoom }) => (
         text="Samesun Venice Beach Hostel"
       />
     </GoogleMapReact>
-  </div>
+  </Wrapper>
 );
 
 Map.propTypes = {
