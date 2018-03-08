@@ -12,6 +12,7 @@ const Wrapper = styled.div`
   background-color: white;
   border: 5px solid black;
   border-radius: 100%;
+  user-select: none;
 `;
 
 const Marker = ({ text }) => (
