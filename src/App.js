@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+// components:
 import GoogleMap from './components/GoogleMap';
 
 const Wrapper = styled.section`
