@@ -11,7 +11,7 @@ const Wrapper = styled.main`
   height: 100%;
 `;
 
-const Map = ({ center, zoom }) => (
+const GoogleMap = ({ center, zoom }) => (
   <Wrapper>
     <GoogleMapReact
       bootstrapURLKeys={{
@@ -29,14 +29,14 @@ const Map = ({ center, zoom }) => (
   </Wrapper>
 );
 
-Map.propTypes = {
+GoogleMap.propTypes = {
   center: PropTypes.arrayOf(PropTypes.number),
   zoom: PropTypes.number,
 };
 
-Map.defaultProps = {
+GoogleMap.defaultProps = {
   center: [33.9850, -118.4695],
   zoom: 14,
 };
 
-export default Map;
+export default GoogleMap;
