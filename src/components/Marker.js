@@ -3,25 +3,35 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 100px;
-  height: 100px;
-  background-color: white;
-  border: 5px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  background-color: #000;
+  border: 2px solid #fff;
   border-radius: 100%;
   user-select: none;
+  transform: translate(-50%, -50%);
+  cursor: ${props => (props.onClick ? 'pointer' : 'default')};
+  &:hover {
+    z-index: 1;
+  }
 `;
 
-const Marker = ({ text }) => (
-  <Wrapper>
-    {text}
-  </Wrapper>
+const Marker = props => (
+  <Wrapper
+    alt={props.text}
+    {...props.onClick ? { onClick: props.onClick } : {}}
+  />
 );
 
+Marker.defaultProps = {
+  onClick: null,
+};
+
 Marker.propTypes = {
+  onClick: PropTypes.func,
   text: PropTypes.string.isRequired,
 };
 
