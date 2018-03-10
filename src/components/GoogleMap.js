@@ -16,9 +16,6 @@ const Map = ({ center, zoom }) => (
     <GoogleMapReact
       bootstrapURLKeys={{
         key: process.env.REACT_APP_MAP_KEY,
-        // TODO: Specifying the version 3.30 avoids a bug where markers are animated from the corners
-        // everytime you zoom in or out, ideally we would like to set this as the default version of GMR
-        v: '3.30',
       }}
       defaultCenter={center}
       defaultZoom={zoom}
