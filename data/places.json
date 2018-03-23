@@ -1,0 +1,925 @@
+{
+  "businesses": [
+    {
+      "id": "my-vegan-gold-los-angeles-2",
+      "name": "My Vegan Gold",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/hz83hvS1rT29BtD3v5VDlA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/my-vegan-gold-los-angeles-2?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+      "review_count": 585,
+      "categories": [
+        {
+          "alias": "vegan",
+          "title": "Vegan"
+        },
+        {
+          "alias": "vegetarian",
+          "title": "Vegetarian"
+        },
+        {
+          "alias": "burgers",
+          "title": "Burgers"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 34.0951603,
+        "longitude": -118.2831401
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "4319 W Sunset Blvd",
+        "address2": "",
+        "address3": "",
+        "city": "Los Angeles",
+        "zip_code": "90029",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "4319 W Sunset Blvd",
+          "Los Angeles, CA 90029"
+        ]
+      },
+      "phone": "+13235226500",
+      "display_phone": "(323) 522-6500",
+      "distance": 5128.961009752392
+    },
+    {
+      "id": "sage-plant-based-bistro-and-brewery-los-angeles-3",
+      "name": "Sage Plant Based Bistro and Brewery",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/3ybTeEfG24gp4tQNFcwatg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/sage-plant-based-bistro-and-brewery-los-angeles-3?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+      "review_count": 1675,
+      "categories": [
+        {
+          "alias": "vegan",
+          "title": "Vegan"
+        },
+        {
+          "alias": "brewpubs",
+          "title": "Brewpubs"
+        },
+        {
+          "alias": "icecream",
+          "title": "Ice Cream & Frozen Yogurt"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 34.07705,
+        "longitude": -118.25888
+      },
+      "transactions": [
+        "pickup",
+        "restaurant_reservation",
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "1700 Sunset Blvd",
+        "address2": "",
+        "address3": "",
+        "city": "Los Angeles",
+        "zip_code": "90026",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "1700 Sunset Blvd",
+          "Los Angeles, CA 90026"
+        ]
+      },
+      "phone": "+12139891718",
+      "display_phone": "(213) 989-1718",
+      "distance": 6026.143347371088
+    },
+    {
+      "id": "the-grain-cafe-los-angeles",
+      "name": "The Grain Cafe",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/6mKqgAOOVdDjr1qM1N2RRg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/the-grain-cafe-los-angeles?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+      "review_count": 627,
+      "categories": [
+        {
+          "alias": "sandwiches",
+          "title": "Sandwiches"
+        },
+        {
+          "alias": "vegan",
+          "title": "Vegan"
+        },
+        {
+          "alias": "vegetarian",
+          "title": "Vegetarian"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 34.04762,
+        "longitude": -118.32758
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "4222 W Pico Blvd",
+        "address2": "",
+        "address3": "",
+        "city": "Los Angeles",
+        "zip_code": "90019",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "4222 W Pico Blvd",
+          "Los Angeles, CA 90019"
+        ]
+      },
+      "phone": "+13239314034",
+      "display_phone": "(323) 931-4034",
+      "distance": 1674.3084107765278
+    },
+    {
+      "id": "doomies-home-cookin-los-angeles-4",
+      "name": "Doomie's Home Cookin'",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/x1_UlWQjuD_gws6aR5gr_w/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/doomies-home-cookin-los-angeles-4?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+      "review_count": 1367,
+      "categories": [
+        {
+          "alias": "vegan",
+          "title": "Vegan"
+        },
+        {
+          "alias": "tradamerican",
+          "title": "American (Traditional)"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 34.093984,
+        "longitude": -118.327639
+      },
+      "transactions": [
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "1253 Vine St",
+        "address2": "Ste 9",
+        "address3": "",
+        "city": "Los Angeles",
+        "zip_code": "90038",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "1253 Vine St",
+          "Ste 9",
+          "Los Angeles, CA 90038"
+        ]
+      },
+      "phone": "+13234694897",
+      "display_phone": "(323) 469-4897",
+      "distance": 3647.9205626581543
+    },
+    {
+      "id": "jewel-los-angeles-2",
+      "name": "Jewel",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ZUP34sTln0oKozgktRWttw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/jewel-los-angeles-2?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+      "review_count": 21,
+      "categories": [
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        },
+        {
+          "alias": "vegan",
+          "title": "Vegan"
+        },
+        {
+          "alias": "vegetarian",
+          "title": "Vegetarian"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 34.08307,
+        "longitude": -118.28427
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$",
+      "location": {
+        "address1": "654 N Hoover St",
+        "address2": null,
+        "address3": "",
+        "city": "Los Angeles",
+        "zip_code": "90004",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "654 N Hoover St",
+          "Los Angeles, CA 90004"
+        ]
+      },
+      "phone": "+13235226927",
+      "display_phone": "(323) 522-6927",
+      "distance": 4168.77473087442
+    },
+    {
+      "id": "by-chloe-silver-lake-los-angeles-3",
+      "name": "by CHLOE. Silver Lake",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/DzR6Wfw4zljHvfsz0ZXjPw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/by-chloe-silver-lake-los-angeles-3?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+      "review_count": 602,
+      "categories": [
+        {
+          "alias": "vegan",
+          "title": "Vegan"
+        },
+        {
+          "alias": "burgers",
+          "title": "Burgers"
+        },
+        {
+          "alias": "sandwiches",
+          "title": "Sandwiches"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 34.1034616314329,
+        "longitude": -118.258644203241
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "2520 Glendale Blvd",
+        "address2": "",
+        "address3": "",
+        "city": "Los Angeles",
+        "zip_code": "90039",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "2520 Glendale Blvd",
+          "Los Angeles, CA 90039"
+        ]
+      },
+      "phone": "+14246757617",
+      "display_phone": "(424) 675-7617",
+      "distance": 7420.234966791786
+    },
+    {
+      "id": "little-pine-los-angeles-2",
+      "name": "Little Pine",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Wyzhhg0z4YUOTqnhxm97nA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/little-pine-los-angeles-2?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+      "review_count": 541,
+      "categories": [
+        {
+          "alias": "vegan",
+          "title": "Vegan"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 34.10768,
+        "longitude": -118.26677
+      },
+      "transactions": [
+        "restaurant_reservation"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "2870 Rowena Ave",
+        "address2": "",
+        "address3": "",
+        "city": "Los Angeles",
+        "zip_code": "90039",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "2870 Rowena Ave",
+          "Los Angeles, CA 90039"
+        ]
+      },
+      "phone": "+13237418148",
+      "display_phone": "(323) 741-8148",
+      "distance": 7185.779378048914
+    },
+    {
+      "id": "sumo-dog-los-angeles",
+      "name": "Sumo Dog",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/5kbCGAB5qKFYLoFIHrOM-w/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/sumo-dog-los-angeles?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+      "review_count": 296,
+      "categories": [
+        {
+          "alias": "hotdog",
+          "title": "Hot Dogs"
+        },
+        {
+          "alias": "asianfusion",
+          "title": "Asian Fusion"
+        },
+        {
+          "alias": "vegan",
+          "title": "Vegan"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 34.0647641,
+        "longitude": -118.3089751
+      },
+      "transactions": [
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "516 S Western Ave",
+        "address2": null,
+        "address3": "",
+        "city": "Los Angeles",
+        "zip_code": "90020",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "516 S Western Ave",
+          "Los Angeles, CA 90020"
+        ]
+      },
+      "phone": "+12133757755",
+      "display_phone": "(213) 375-7755",
+      "distance": 1211.462584210942
+    },
+    {
+      "id": "las-best-salad-bar-powered-by-mrs-winstons-los-angeles-4",
+      "name": "LA's Best Salad Bar powered by Mrs Winstons",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/s-LlH90OB4JoykJZWqqQQw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/las-best-salad-bar-powered-by-mrs-winstons-los-angeles-4?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+      "review_count": 33,
+      "categories": [
+        {
+          "alias": "salad",
+          "title": "Salad"
+        },
+        {
+          "alias": "juicebars",
+          "title": "Juice Bars & Smoothies"
+        },
+        {
+          "alias": "vegan",
+          "title": "Vegan"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 34.04681,
+        "longitude": -118.26172
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "888 S Figueroa St",
+        "address2": null,
+        "address3": null,
+        "city": "Los Angeles",
+        "zip_code": "90017",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "888 S Figueroa St",
+          "Los Angeles, CA 90017"
+        ]
+      },
+      "phone": "+12136120800",
+      "display_phone": "(213) 612-0800",
+      "distance": 5718.788119606028
+    },
+    {
+      "id": "crossroads-los-angeles-3",
+      "name": "Crossroads",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/i2mXbAP5buayWQX6xAdZXQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/crossroads-los-angeles-3?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+      "review_count": 1287,
+      "categories": [
+        {
+          "alias": "vegan",
+          "title": "Vegan"
+        },
+        {
+          "alias": "mediterranean",
+          "title": "Mediterranean"
+        },
+        {
+          "alias": "tapasmallplates",
+          "title": "Tapas/Small Plates"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 34.08342,
+        "longitude": -118.37011
+      },
+      "transactions": [
+        "pickup"
+      ],
+      "price": "$$$",
+      "location": {
+        "address1": "8284 Melrose Ave",
+        "address2": "",
+        "address3": "",
+        "city": "Los Angeles",
+        "zip_code": "90046",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "8284 Melrose Ave",
+          "Los Angeles, CA 90046"
+        ]
+      },
+      "phone": "+13237829245",
+      "display_phone": "(323) 782-9245",
+      "distance": 5103.395203493092
+    },
+    {
+      "id": "flore-vegan-cuisine-los-angeles-2",
+      "name": "Flore Vegan Cuisine",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/EmYae_kOILx2f8KvZaPSMg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/flore-vegan-cuisine-los-angeles-2?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+      "review_count": 1029,
+      "categories": [
+        {
+          "alias": "vegan",
+          "title": "Vegan"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 34.0912104093655,
+        "longitude": -118.279427202132
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "3818 W Sunset Blvd",
+        "address2": "",
+        "address3": "",
+        "city": "Los Angeles",
+        "zip_code": "90026",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "3818 W Sunset Blvd",
+          "Los Angeles, CA 90026"
+        ]
+      },
+      "phone": "+13239530611",
+      "display_phone": "(323) 953-0611",
+      "distance": 5077.273595732326
+    },
+    {
+      "id": "krimseys-cajun-kitchen-los-angeles",
+      "name": "Krimsey's Cajun Kitchen",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/k0yRYf782ljgEnexa5TpCw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/krimseys-cajun-kitchen-los-angeles?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+      "review_count": 413,
+      "categories": [
+        {
+          "alias": "cajun",
+          "title": "Cajun/Creole"
+        },
+        {
+          "alias": "vegan",
+          "title": "Vegan"
+        },
+        {
+          "alias": "southern",
+          "title": "Southern"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 34.1862989,
+        "longitude": -118.4139645
+      },
+      "transactions": [
+        "pickup",
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "12900 Victory Blvd",
+        "address2": null,
+        "address3": "",
+        "city": "Los Angeles",
+        "zip_code": "91606",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "12900 Victory Blvd",
+          "Los Angeles, CA 91606"
+        ]
+      },
+      "phone": "+18183086166",
+      "display_phone": "(818) 308-6166",
+      "distance": 16276.511216809185
+    },
+    {
+      "id": "green-table-cafe-los-angeles",
+      "name": "Green Table Cafe",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/sGCuqUXCwfnv80tVl9No9w/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/green-table-cafe-los-angeles?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+      "review_count": 238,
+      "categories": [
+        {
+          "alias": "cafes",
+          "title": "Cafes"
+        },
+        {
+          "alias": "vegan",
+          "title": "Vegan"
+        },
+        {
+          "alias": "juicebars",
+          "title": "Juice Bars & Smoothies"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 34.0522237,
+        "longitude": -118.37115
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "5998 W Pico Blvd",
+        "address2": null,
+        "address3": "",
+        "city": "Los Angeles",
+        "zip_code": "90035",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "5998 W Pico Blvd",
+          "Los Angeles, CA 90035"
+        ]
+      },
+      "phone": "+13234244129",
+      "display_phone": "(323) 424-4129",
+      "distance": 4695.352982221813
+    },
+    {
+      "id": "the-vegan-joint-los-angeles-4",
+      "name": "The Vegan Joint",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/Ubcy8FnziM4_ndRnIW91Qw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/the-vegan-joint-los-angeles-4?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+      "review_count": 156,
+      "categories": [
+        {
+          "alias": "vegan",
+          "title": "Vegan"
+        },
+        {
+          "alias": "vegetarian",
+          "title": "Vegetarian"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 34.0357895,
+        "longitude": -118.2513123
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "707 E 10th St",
+        "address2": "",
+        "address3": "",
+        "city": "Los Angeles",
+        "zip_code": "90021",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "707 E 10th St",
+          "Los Angeles, CA 90021"
+        ]
+      },
+      "phone": "+12136249865",
+      "display_phone": "(213) 624-9865",
+      "distance": 7063.001456520959
+    },
+    {
+      "id": "la-vegan-los-angeles-2",
+      "name": "LA Vegan",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/q2IDy7EXHXK0I0i4gexUjA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/la-vegan-los-angeles-2?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+      "review_count": 547,
+      "categories": [
+        {
+          "alias": "vegan",
+          "title": "Vegan"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 33.9926,
+        "longitude": -118.42336
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "4507 S Centinela Ave",
+        "address2": "",
+        "address3": "",
+        "city": "Los Angeles",
+        "zip_code": "90066",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "4507 S Centinela Ave",
+          "Los Angeles, CA 90066"
+        ]
+      },
+      "phone": "+13105749888",
+      "display_phone": "(310) 574-9888",
+      "distance": 12124.793094914978
+    },
+    {
+      "id": "earles-on-crenshaw-los-angeles",
+      "name": "Earle's On Crenshaw",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/mLD9pcbFUg4ctAOFXroWrg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/earles-on-crenshaw-los-angeles?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+      "review_count": 174,
+      "categories": [
+        {
+          "alias": "hotdog",
+          "title": "Hot Dogs"
+        },
+        {
+          "alias": "burgers",
+          "title": "Burgers"
+        },
+        {
+          "alias": "vegan",
+          "title": "Vegan"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 34.0156233070285,
+        "longitude": -118.334755915362
+      },
+      "transactions": [],
+      "price": "$",
+      "location": {
+        "address1": "3864 Crenshaw Blvd",
+        "address2": null,
+        "address3": "",
+        "city": "Los Angeles",
+        "zip_code": "90008",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "3864 Crenshaw Blvd",
+          "Los Angeles, CA 90008"
+        ]
+      },
+      "phone": "+13232992867",
+      "display_phone": "(323) 299-2867",
+      "distance": 5257.692890444932
+    },
+    {
+      "id": "vromage-los-angeles",
+      "name": "Vromage",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/qcweFkOdkAMgN4eVK5XQLA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/vromage-los-angeles?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+      "review_count": 171,
+      "categories": [
+        {
+          "alias": "cheese",
+          "title": "Cheese Shops"
+        },
+        {
+          "alias": "vegan",
+          "title": "Vegan"
+        }
+      ],
+      "rating": 5,
+      "coordinates": {
+        "latitude": 34.0979903025286,
+        "longitude": -118.364359074216
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "7988 W Sunset Blvd",
+        "address2": "",
+        "address3": "",
+        "city": "Los Angeles",
+        "zip_code": "90046",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "7988 W Sunset Blvd",
+          "Los Angeles, CA 90046"
+        ]
+      },
+      "phone": "+13237450157",
+      "display_phone": "(323) 745-0157",
+      "distance": 5654.377661857612
+    },
+    {
+      "id": "shojin-downtown-los-angeles",
+      "name": "Shojin Downtown",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/NtRxoJeWbyeMs83Egfs2Vw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/shojin-downtown-los-angeles?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+      "review_count": 1519,
+      "categories": [
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "vegan",
+          "title": "Vegan"
+        },
+        {
+          "alias": "gluten_free",
+          "title": "Gluten-Free"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 34.0443222,
+        "longitude": -118.2382339
+      },
+      "transactions": [
+        "restaurant_reservation"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "333 S Alameda St",
+        "address2": "Ste 310",
+        "address3": "",
+        "city": "Los Angeles",
+        "zip_code": "90013",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "333 S Alameda St",
+          "Ste 310",
+          "Los Angeles, CA 90013"
+        ]
+      },
+      "phone": "+12136170305",
+      "display_phone": "(213) 617-0305",
+      "distance": 7883.322854991441
+    },
+    {
+      "id": "pomegranate-los-angeles",
+      "name": "Pomegranate",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/silX_RkJqOLwx2NqF1ArjA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/pomegranate-los-angeles?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+      "review_count": 120,
+      "categories": [
+        {
+          "alias": "vegan",
+          "title": "Vegan"
+        },
+        {
+          "alias": "gluten_free",
+          "title": "Gluten-Free"
+        },
+        {
+          "alias": "cafes",
+          "title": "Cafes"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 34.0734447,
+        "longitude": -118.3789681
+      },
+      "transactions": [
+        "pickup",
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "8556 W 3rd St",
+        "address2": "",
+        "address3": "",
+        "city": "Los Angeles",
+        "zip_code": "90048",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "8556 W 3rd St",
+          "Los Angeles, CA 90048"
+        ]
+      },
+      "phone": "+14243350506",
+      "display_phone": "(424) 335-0506",
+      "distance": 5465.805541471782
+    },
+    {
+      "id": "au-lac-los-angeles-2",
+      "name": "Au Lac",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/JL0mL2ddvvQMXNlDmrPZHA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/au-lac-los-angeles-2?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+      "review_count": 626,
+      "categories": [
+        {
+          "alias": "vegan",
+          "title": "Vegan"
+        },
+        {
+          "alias": "vietnamese",
+          "title": "Vietnamese"
+        },
+        {
+          "alias": "raw_food",
+          "title": "Live/Raw Food"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 34.0563590452504,
+        "longitude": -118.250936711212
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "710 W 1st St",
+        "address2": "",
+        "address3": "",
+        "city": "Los Angeles",
+        "zip_code": "90012",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "710 W 1st St",
+          "Los Angeles, CA 90012"
+        ]
+      },
+      "phone": "+12136172533",
+      "display_phone": "(213) 617-2533",
+      "distance": 6515.346889256312
+    }
+  ],
+  "total": 8900,
+  "region": {
+    "center": {
+      "longitude": -118.3213806152,
+      "latitude": 34.0615895441
+    }
+  }
+}
