@@ -6,6 +6,8 @@ import GoogleMapReact from 'google-map-react';
 // components:
 import Marker from './Marker';
 
+import PLACES from '../data/places.json';
+
 const Wrapper = styled.main`
   width: 100%;
   height: 100%;
@@ -20,11 +22,13 @@ const GoogleMap = ({ center, zoom }) => (
       defaultCenter={center}
       defaultZoom={zoom}
     >
-      <Marker
-        lat={33.98732}
-        lng={-118.4732217}
-        text="Samesun Venice Beach Hostel"
-      />
+      {PLACES.businesses.map(place => (
+        <Marker
+          lat={place.coordinates.latitude}
+          lng={place.coordinates.longitude}
+          text={place.name}
+        />
+      ))}
     </GoogleMapReact>
   </Wrapper>
 );
@@ -35,7 +39,7 @@ GoogleMap.propTypes = {
 };
 
 GoogleMap.defaultProps = {
-  center: [33.9850, -118.4695],
+  center: [PLACES.region.center.latitude, PLACES.region.center.longitude],
   zoom: 14,
 };
 
