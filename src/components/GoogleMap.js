@@ -24,9 +24,10 @@ const GoogleMap = ({ center, zoom }) => (
     >
       {PLACES.businesses.map(place => (
         <Marker
+          key={place.id}
+          text={place.name}
           lat={place.coordinates.latitude}
           lng={place.coordinates.longitude}
-          text={place.name}
         />
       ))}
     </GoogleMapReact>
