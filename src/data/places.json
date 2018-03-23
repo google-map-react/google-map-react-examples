@@ -1,0 +1,926 @@
+{
+    "businesses": [
+        {
+            "id": "plant-food-wine-venice",
+            "name": "Plant Food + Wine",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/5-yscYwJYpFEQvzpqvTS_A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/plant-food-wine-venice?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+            "review_count": 338,
+            "categories": [
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "raw_food",
+                    "title": "Live/Raw Food"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 33.99244,
+                "longitude": -118.47237
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$$",
+            "location": {
+                "address1": "1009 Abbot Kinney Blvd",
+                "address2": null,
+                "address3": "",
+                "city": "Venice",
+                "zip_code": "90291",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1009 Abbot Kinney Blvd",
+                    "Venice, CA 90291"
+                ]
+            },
+            "phone": "+13104501009",
+            "display_phone": "(310) 450-1009",
+            "distance": 1054.64859632123
+        },
+        {
+            "id": "cafe-gratitude-venice-venice",
+            "name": "Cafe Gratitude Venice",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/39qNUZkblWnkVXvZugDWzg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cafe-gratitude-venice-venice?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+            "review_count": 1111,
+            "categories": [
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 33.9982167895474,
+                "longitude": -118.473767975767
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "512 Rose Ave",
+                "address2": "",
+                "address3": "",
+                "city": "Venice",
+                "zip_code": "90291",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "512 Rose Ave",
+                    "Venice, CA 90291"
+                ]
+            },
+            "phone": "+14242318000",
+            "display_phone": "(424) 231-8000",
+            "distance": 1631.388722597434
+        },
+        {
+            "id": "the-butchers-daughter-venice-2",
+            "name": "The Butcher's Daughter",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/i4ROXfAqk1Ia-nIU22Tojg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-butchers-daughter-venice-2?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+            "review_count": 638,
+            "categories": [
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                },
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                },
+                {
+                    "alias": "gluten_free",
+                    "title": "Gluten-Free"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 33.99166,
+                "longitude": -118.46916
+            },
+            "transactions": [
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1205 Abbot Kinney Blvd",
+                "address2": null,
+                "address3": "",
+                "city": "Venice",
+                "zip_code": "90291",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1205 Abbot Kinney Blvd",
+                    "Venice, CA 90291"
+                ]
+            },
+            "phone": "+13109813004",
+            "display_phone": "(310) 981-3004",
+            "distance": 797.6918880806099
+        },
+        {
+            "id": "fala-bar-los-angeles-3",
+            "name": "Fala Bar",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/fU71msNJSwmOj3SEjI21iA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/fala-bar-los-angeles-3?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+            "review_count": 225,
+            "categories": [
+                {
+                    "alias": "salad",
+                    "title": "Salad"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                },
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 33.9912589,
+                "longitude": -118.4692363
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "1146 Abbot Kinney Blvd",
+                "address2": "",
+                "address3": "",
+                "city": "Los Angeles",
+                "zip_code": "90291",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1146 Abbot Kinney Blvd",
+                    "Los Angeles, CA 90291"
+                ]
+            },
+            "phone": "+13103990809",
+            "display_phone": "(310) 399-0809",
+            "distance": 761.439311211124
+        },
+        {
+            "id": "tocaya-organica-venice-3",
+            "name": "Tocaya Organica",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/jFqnS74hMsUwlvSVvEu0Gg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/tocaya-organica-venice-3?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+            "review_count": 515,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 33.986639,
+                "longitude": -118.471641
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "1715 Pacific Ave",
+                "address2": "",
+                "address3": "",
+                "city": "Venice",
+                "zip_code": "90291",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1715 Pacific Ave",
+                    "Venice, CA 90291"
+                ]
+            },
+            "phone": "+14247449692",
+            "display_phone": "(424) 744-9692",
+            "distance": 720.3172875160279
+        },
+        {
+            "id": "la-vegan-los-angeles-2",
+            "name": "LA Vegan",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/q2IDy7EXHXK0I0i4gexUjA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/la-vegan-los-angeles-2?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+            "review_count": 547,
+            "categories": [
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 33.9926,
+                "longitude": -118.42336
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "4507 S Centinela Ave",
+                "address2": "",
+                "address3": "",
+                "city": "Los Angeles",
+                "zip_code": "90066",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "4507 S Centinela Ave",
+                    "Los Angeles, CA 90066"
+                ]
+            },
+            "phone": "+13105749888",
+            "display_phone": "(310) 574-9888",
+            "distance": 3812.779250621048
+        },
+        {
+            "id": "cairo-cowboy-venice-4",
+            "name": "Cairo Cowboy",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/LFjFXtAS2GbVrxwH_t1HDQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cairo-cowboy-venice-4?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+            "review_count": 211,
+            "categories": [
+                {
+                    "alias": "mediterranean",
+                    "title": "Mediterranean"
+                },
+                {
+                    "alias": "greek",
+                    "title": "Greek"
+                },
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 33.9872924754827,
+                "longitude": -118.472856533766
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "46 Windward Ave",
+                "address2": "",
+                "address3": "",
+                "city": "Venice",
+                "zip_code": "90291",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "46 Windward Ave",
+                    "Venice, CA 90291"
+                ]
+            },
+            "phone": "+13104527910",
+            "display_phone": "(310) 452-7910",
+            "distance": 842.3603256590719
+        },
+        {
+            "id": "sage-plant-based-bistro-culver-city-2",
+            "name": "Sage Plant Based Bistro",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Rfa-aAOgj2g0Vf53QKYLOA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/sage-plant-based-bistro-culver-city-2?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+            "review_count": 1588,
+            "categories": [
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                },
+                {
+                    "alias": "desserts",
+                    "title": "Desserts"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 34.006538,
+                "longitude": -118.41216
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "4130 Sepulveda Blvd",
+                "address2": "Ste G",
+                "address3": "",
+                "city": "Culver City",
+                "zip_code": "90230",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "4130 Sepulveda Blvd",
+                    "Ste G",
+                    "Culver City, CA 90230"
+                ]
+            },
+            "phone": "+14242285835",
+            "display_phone": "(424) 228-5835",
+            "distance": 5282.068730591482
+        },
+        {
+            "id": "true-food-kitchen-santa-monica",
+            "name": "True Food Kitchen",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/VrQutTTFZ5TfAhPBq31-sg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/true-food-kitchen-santa-monica?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+            "review_count": 1902,
+            "categories": [
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                },
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 34.0129874368174,
+                "longitude": -118.494409626984
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "395 Santa Monica Pl",
+                "address2": "Ste 172",
+                "address3": "",
+                "city": "Santa Monica",
+                "zip_code": "90401",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "395 Santa Monica Pl",
+                    "Ste 172",
+                    "Santa Monica, CA 90401"
+                ]
+            },
+            "phone": "+13105938300",
+            "display_phone": "(310) 593-8300",
+            "distance": 4110.45173509029
+        },
+        {
+            "id": "shojin-los-angeles-3",
+            "name": "shojin",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/iV7cDfXu6tBUxor-Bk6mig/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/shojin-los-angeles-3?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+            "review_count": 315,
+            "categories": [
+                {
+                    "alias": "japanese",
+                    "title": "Japanese"
+                },
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "gluten_free",
+                    "title": "Gluten-Free"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 33.9966735839844,
+                "longitude": -118.428680419922
+            },
+            "transactions": [],
+            "price": "$$$",
+            "location": {
+                "address1": "12406 Washington Blvd",
+                "address2": null,
+                "address3": "",
+                "city": "Los Angeles",
+                "zip_code": "90066",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "12406 Washington Blvd",
+                    "Los Angeles, CA 90066"
+                ]
+            },
+            "phone": "+13103900033",
+            "display_phone": "(310) 390-0033",
+            "distance": 3460.251117215908
+        },
+        {
+            "id": "satdha-plant-based-thai-kitchen-santa-monica-5",
+            "name": "Satdha Plant-Based Thai Kitchen",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/fDHXZ_Fop3B9apDAKjSAIQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/satdha-plant-based-thai-kitchen-santa-monica-5?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+            "review_count": 555,
+            "categories": [
+                {
+                    "alias": "thai",
+                    "title": "Thai"
+                },
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 34.00978,
+                "longitude": -118.48035
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "2218 Lincoln Blvd",
+                "address2": "",
+                "address3": "",
+                "city": "Santa Monica",
+                "zip_code": "90405",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2218 Lincoln Blvd",
+                    "Santa Monica, CA 90405"
+                ]
+            },
+            "phone": "+13104506999",
+            "display_phone": "(310) 450-6999",
+            "distance": 3037.559826773882
+        },
+        {
+            "id": "equelecuá-cuban-cafe-inglewood-2",
+            "name": "Equelecuá Cuban Cafe",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/pFLLUZgXV-MEVVqACPxhvg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/equelecu%C3%A1-cuban-cafe-inglewood-2?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+            "review_count": 482,
+            "categories": [
+                {
+                    "alias": "cuban",
+                    "title": "Cuban"
+                },
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 33.9608934,
+                "longitude": -118.3761448
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1120 W Florence Ave",
+                "address2": "Unit C",
+                "address3": "",
+                "city": "Inglewood",
+                "zip_code": "90301",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1120 W Florence Ave",
+                    "Unit C",
+                    "Inglewood, CA 90301"
+                ]
+            },
+            "phone": "+13237412822",
+            "display_phone": "(323) 741-2822",
+            "distance": 8577.35295763987
+        },
+        {
+            "id": "thai-vegan-marina-del-rey",
+            "name": "Thai Vegan",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/bUoiMkeEeh8TVX83woI-KA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/thai-vegan-marina-del-rey?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+            "review_count": 39,
+            "categories": [
+                {
+                    "alias": "desserts",
+                    "title": "Desserts"
+                },
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "thai",
+                    "title": "Thai"
+                }
+            ],
+            "rating": 3,
+            "coordinates": {
+                "latitude": 33.9890306,
+                "longitude": -118.4509981
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "2928 Washington Blvd",
+                "address2": "",
+                "address3": "",
+                "city": "Marina Del Rey",
+                "zip_code": "90292",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2928 Washington Blvd",
+                    "Marina Del Rey, CA 90292"
+                ]
+            },
+            "phone": "+13103051003",
+            "display_phone": "(310) 305-1003",
+            "distance": 1230.917964672562
+        },
+        {
+            "id": "rasta-lab-los-angeles",
+            "name": "Rasta Lab",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Zr3qIoNpn3iAlkZJSnIWgQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/rasta-lab-los-angeles?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "catering",
+                    "title": "Caterers"
+                },
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "personalchefs",
+                    "title": "Personal Chefs"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 33.99241,
+                "longitude": -118.47202
+            },
+            "transactions": [],
+            "location": {
+                "address1": "",
+                "address2": null,
+                "address3": "",
+                "city": "Los Angeles",
+                "zip_code": "90291",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "Los Angeles, CA 90291"
+                ]
+            },
+            "phone": "+13104032085",
+            "display_phone": "(310) 403-2085",
+            "distance": 1220.109883944384
+        },
+        {
+            "id": "flower-child-santa-monica",
+            "name": "Flower Child",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/IqAU3Oh_Jj1lCXKvJWlvJA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/flower-child-santa-monica?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+            "review_count": 427,
+            "categories": [
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                },
+                {
+                    "alias": "salad",
+                    "title": "Salad"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 34.01523,
+                "longitude": -118.49799
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1332 2nd St",
+                "address2": "Suite 160",
+                "address3": "",
+                "city": "Santa Monica",
+                "zip_code": "90401",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1332 2nd St",
+                    "Suite 160",
+                    "Santa Monica, CA 90401"
+                ]
+            },
+            "phone": "+13103822901",
+            "display_phone": "(310) 382-2901",
+            "distance": 4520.010880816738
+        },
+        {
+            "id": "native-foods-cafe-los-angeles",
+            "name": "Native Foods Cafe",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ZzkHoT2UR9dPFYIlpjTXVA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/native-foods-cafe-los-angeles?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+            "review_count": 1242,
+            "categories": [
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                },
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 34.0599747,
+                "longitude": -118.4460684
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1114 Gayley Ave",
+                "address2": null,
+                "address3": "",
+                "city": "Los Angeles",
+                "zip_code": "90024",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1114 Gayley Ave",
+                    "Los Angeles, CA 90024"
+                ]
+            },
+            "phone": "+13102091055",
+            "display_phone": "(310) 209-1055",
+            "distance": 8383.762051562195
+        },
+        {
+            "id": "everytable-santa-monica",
+            "name": "Everytable",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/iQ_98lja6cV8BOyIbZZ3XQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/everytable-santa-monica?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+            "review_count": 46,
+            "categories": [
+                {
+                    "alias": "salad",
+                    "title": "Salad"
+                },
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 34.01679,
+                "longitude": -118.49689
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "1315 3rd St",
+                "address2": "Ste 201",
+                "address3": null,
+                "city": "Santa Monica",
+                "zip_code": "90401",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1315 3rd St",
+                    "Ste 201",
+                    "Santa Monica, CA 90401"
+                ]
+            },
+            "phone": "+14242961619",
+            "display_phone": "(424) 296-1619",
+            "distance": 4578.403895282786
+        },
+        {
+            "id": "the-vegan-joint-los-angeles-2",
+            "name": "The Vegan Joint",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/X8LT6EhyvSy2rNphQCrYUA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-vegan-joint-los-angeles-2?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+            "review_count": 709,
+            "categories": [
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 34.0285966348823,
+                "longitude": -118.411620547176
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "10438 National Blvd",
+                "address2": null,
+                "address3": "",
+                "city": "Los Angeles",
+                "zip_code": "90034",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "10438 National Blvd",
+                    "Los Angeles, CA 90034"
+                ]
+            },
+            "phone": "+13105591357",
+            "display_phone": "(310) 559-1357",
+            "distance": 6749.572864770948
+        },
+        {
+            "id": "tocaya-organica-playa-vista-los-angeles-4",
+            "name": "Tocaya Organica - Playa Vista",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/m12zVhkIhMERRI8U50T8GA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/tocaya-organica-playa-vista-los-angeles-4?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+            "review_count": 163,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 33.979614868581,
+                "longitude": -118.408223949385
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "12150 Millennium Dr",
+                "address2": "Ste 101",
+                "address3": "",
+                "city": "Los Angeles",
+                "zip_code": "90094",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "12150 Millennium Dr",
+                    "Ste 101",
+                    "Los Angeles, CA 90094"
+                ]
+            },
+            "phone": "+14242896105",
+            "display_phone": "(424) 289-6105",
+            "distance": 5305.126533026214
+        },
+        {
+            "id": "the-hive-santa-monica-11",
+            "name": "The Hive",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/pi3OtmRdEKpkv6T2ngcmSg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-hive-santa-monica-11?adjust_creative=yYs9KAiD9CS00a5KUZkPVA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=yYs9KAiD9CS00a5KUZkPVA",
+            "review_count": 376,
+            "categories": [
+                {
+                    "alias": "juicebars",
+                    "title": "Juice Bars & Smoothies"
+                },
+                {
+                    "alias": "raw_food",
+                    "title": "Live/Raw Food"
+                },
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 34.0167041,
+                "longitude": -118.491248
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "606 Broadway",
+                "address2": null,
+                "address3": "",
+                "city": "Santa Monica",
+                "zip_code": "90401",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "606 Broadway",
+                    "Santa Monica, CA 90401"
+                ]
+            },
+            "phone": "+13108996298",
+            "display_phone": "(310) 899-6298",
+            "distance": 4240.800536257032
+        }
+    ],
+    "total": 1700,
+    "region": {
+        "center": {
+            "longitude": -118.4638595581,
+            "latitude": 33.986061063
+        }
+    }
+}
