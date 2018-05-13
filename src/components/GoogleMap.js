@@ -41,7 +41,7 @@ GoogleMap.propTypes = {
 
 GoogleMap.defaultProps = {
   center: [PLACES.region.center.latitude, PLACES.region.center.longitude],
-  zoom: 14,
+  zoom: 10,
 };
 
 export default GoogleMap;
