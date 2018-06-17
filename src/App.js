@@ -1,18 +1,19 @@
 import React from 'react';
-import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
-// components:
-import GoogleMap from './components/GoogleMap';
-
-const Wrapper = styled.section`
-  width: 100vw;
-  height: 100vh;
-`;
-
-const App = () => (
-  <Wrapper>
-    <GoogleMap />
-  </Wrapper>
+const App = ({ children }) => (
+  <section>{children}</section>
 );
+
+App.propTypes = {
+  children: PropTypes.oneOfType([
+    PropTypes.node,
+    PropTypes.arrayOf(PropTypes.node),
+  ]),
+};
+
+App.defaultProps = {
+  children: {},
+};
 
 export default App;
