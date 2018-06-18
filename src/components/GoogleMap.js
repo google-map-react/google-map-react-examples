@@ -7,6 +7,7 @@ import GoogleMapReact from 'google-map-react';
 import Marker from './Marker';
 
 import PLACES from '../data/places.json';
+import LOS_ANGELES_CENTER from '../const/la_center';
 
 const Wrapper = styled.main`
   width: 100%;
@@ -22,12 +23,12 @@ const GoogleMap = ({ center, zoom }) => (
       defaultCenter={center}
       defaultZoom={zoom}
     >
-      {PLACES.businesses.map(place => (
+      {PLACES.results.map(place => (
         <Marker
           key={place.id}
           text={place.name}
-          lat={place.coordinates.latitude}
-          lng={place.coordinates.longitude}
+          lat={place.geometry.location.lat}
+          lng={place.geometry.location.lng}
         />
       ))}
     </GoogleMapReact>
@@ -40,7 +41,7 @@ GoogleMap.propTypes = {
 };
 
 GoogleMap.defaultProps = {
-  center: [PLACES.region.center.latitude, PLACES.region.center.longitude],
+  center: LOS_ANGELES_CENTER,
   zoom: 10,
 };
 
