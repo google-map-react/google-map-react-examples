@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/itsmichaeldiego/google-map-react-examples.svg?branch=master)](https://travis-ci.org/itsmichaeldiego/google-map-react-examples)
 # Examples for [google-map-react library](https://github.com/google-map-react/google-map-react)
 
 `google-map-react` is a component written over a small set of the [Google Maps API](https://developers.google.com/maps/). It allows you to render any React component on the Google Map. It is fully isomorphic and can render on a server. Additionally, it can render map components in the browser even if the Google Maps API is not loaded. It uses an internal, tweakable hover algorithm - every object on the map can be hovered.
