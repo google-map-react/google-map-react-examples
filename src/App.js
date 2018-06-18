@@ -13,7 +13,7 @@ App.propTypes = {
 };
 
 App.defaultProps = {
-  children: {},
+  children: null,
 };
 
 export default App;
