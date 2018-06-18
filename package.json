@@ -2,6 +2,7 @@
   "name": "google-map-react-examples",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://itsmichaeldiego.github.io/google-map-react-examples/",
   "dependencies": {
     "google-map-react": "^1.0.0",
     "prop-types": "^15.6.1",
@@ -15,12 +16,15 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.7.0"
+    "eslint-plugin-react": "^7.7.0",
+    "gh-pages": "^1.2.0"
   }
 }
