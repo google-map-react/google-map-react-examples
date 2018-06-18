@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import isEmpty from 'lodash.isempty';
 
 // components:
 import Marker from '../components/Marker';
@@ -11,6 +12,27 @@ const Wrapper = styled.section`
   width: 100vw;
   height: 100vh;
 `;
+
+// Return map bounds based on list of places
+const getMapBounds = (map, maps, places) => {
+  const bounds = new maps.LatLngBounds();
+
+  places.forEach((place) => {
+    bounds.extend(new maps.LatLng(
+      place.geometry.location.lat,
+      place.geometry.location.lng,
+    ));
+  });
+  return bounds;
+};
+
+// Fit map to its bounds after the api is loaded
+const apiIsLoaded = (map, maps, places) => {
+  // Get bounds by our places
+  const bounds = getMapBounds(map, maps, places);
+  // Fit map to bounds
+  map.fitBounds(bounds);
+};
 
 class Main extends Component {
   constructor(props) {
@@ -31,10 +53,12 @@ class Main extends Component {
     const { places } = this.state;
     return (
       <Wrapper>
-        {places && (
+        {!isEmpty(places) && (
           <GoogleMap
-            defaultCenter={LOS_ANGELES_CENTER}
             defaultZoom={10}
+            defaultCenter={LOS_ANGELES_CENTER}
+            yesIWantToUseGoogleMapApiInternals
+            onGoogleApiLoaded={({ map, maps }) => apiIsLoaded(map, maps, places)}
           >
             {places.map(place => (
               <Marker

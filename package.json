@@ -5,6 +5,7 @@
   "homepage": "https://itsmichaeldiego.github.io/google-map-react-examples/",
   "dependencies": {
     "google-map-react": "^1.0.0",
+    "lodash.isempty": "^4.4.0",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
