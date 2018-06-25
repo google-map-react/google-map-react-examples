@@ -55,7 +55,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('/places.json')
+    fetch('places.json')
       .then(response => response.json())
       .then(data => this.setState({ places: data.results }));
   }
