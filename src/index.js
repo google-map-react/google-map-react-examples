@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import {
   Route,
   Switch,
+  Redirect,
   BrowserRouter as Router,
 } from 'react-router-dom';
 
@@ -23,6 +24,8 @@ ReactDOM.render(
     <App>
       <Switch>
         <Route exact path="/" component={Main} />
+        {/* New examples here */}
+        <Redirect exact from="*" to="/" />
       </Switch>
     </App>
   </Router>,
