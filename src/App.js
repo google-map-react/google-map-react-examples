@@ -4,8 +4,11 @@ import isEmpty from 'lodash.isempty';
 
 // components:
 import Marker from './components/Marker';
-import GoogleMap from './components/GoogleMap';
 
+// examples:
+import GoogleMap from './examples/Main';
+
+// consts
 import LOS_ANGELES_CENTER from './const/la_center';
 
 const Wrapper = styled.section`
