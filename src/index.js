@@ -23,9 +23,9 @@ ReactDOM.render(
   <Router>
     <App>
       <Switch>
-        <Route exact path="/" component={Main} />
+        <Route exact path={process.env.BASE_PATH} component={Main} />
         {/* New examples here */}
-        <Redirect exact from="*" to="/" />
+        <Redirect exact from="*" to={process.env.BASE_PATH} />
       </Switch>
     </App>
   </Router>,
