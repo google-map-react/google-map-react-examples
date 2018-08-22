@@ -19,13 +19,15 @@ import App from './App';
 // utils
 import registerServiceWorker from './registerServiceWorker';
 
+const BASE_PATH = '/google-map-react-examples/';
+
 ReactDOM.render(
   <Router>
     <App>
       <Switch>
-        <Route exact path="/" component={Main} />
+        <Route exact path={BASE_PATH} component={Main} />
         {/* New examples here */}
-        <Redirect exact from="*" to="/" />
+        <Redirect exact from="*" to={BASE_PATH} />
       </Switch>
     </App>
   </Router>,
