@@ -2,8 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-[Here you will find the Create React App's latest documentation](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
-
 ## Stack
 
 - [React](https://facebook.github.io/react) rendering
