@@ -8,6 +8,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [React-router](https://reacttraining.com/react-router/) for routing
 - [Styled components](https://www.styled-components.com/) for styling our components
 
+## Examples:
+
+- [Main example](https://google-map-react.github.io/google-map-react-examples/)
+
 ## Getting started
 
 ### Installation
