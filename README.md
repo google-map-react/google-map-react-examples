@@ -1,9 +1,16 @@
-
 # Examples for [google-map-react library](https://github.com/google-map-react/google-map-react) &middot; [![Build Status](https://travis-ci.org/itsmichaeldiego/google-map-react-examples.svg?branch=master)](https://travis-ci.org/itsmichaeldiego/google-map-react-examples)
 
-`google-map-react` is a component written over a small set of the [Google Maps API](https://developers.google.com/maps/). It allows you to render any React component on the Google Map. It is fully isomorphic and can render on a server. Additionally, it can render map components in the browser even if the Google Maps API is not loaded. It uses an internal, tweakable hover algorithm - every object on the map can be hovered.
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-It allows you to create interfaces like this [example](http://itsmichaeldiego.github.io/google-map-react-examples/) *(You can scroll the table, zoom/move the map, hover/click on markers, and click on table rows)*
+## Stack
+
+- [React](https://facebook.github.io/react) rendering
+- [React-router](https://reacttraining.com/react-router/) for routing
+- [Styled components](https://www.styled-components.com/) for styling our components
+
+## Examples:
+
+- [Main example](https://google-map-react.github.io/google-map-react-examples/)
 
 ## Getting started
 
