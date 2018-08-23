@@ -5,8 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Stack
 
 - [React](https://facebook.github.io/react) rendering
+- [React-router](https://reacttraining.com/react-router/) for routing
 - [Styled components](https://www.styled-components.com/) for styling our components
-- [Jest](https://facebook.github.io/jest) for JavaScript Testing
 
 ## Getting started
 
