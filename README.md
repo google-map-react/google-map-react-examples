@@ -1,4 +1,4 @@
-# Examples for [google-map-react library](https://github.com/google-map-react/google-map-react) &middot; [![Build Status](https://travis-ci.org/itsmichaeldiego/google-map-react-examples.svg?branch=master)](https://travis-ci.org/itsmichaeldiego/google-map-react-examples)
+# Examples for [google-map-react library](https://github.com/google-map-react/google-map-react) &middot; [![Build Status](https://travis-ci.org/google-map-react/google-map-react-examples.svg?branch=master)](https://travis-ci.org/google-map-react/google-map-react-examples)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
