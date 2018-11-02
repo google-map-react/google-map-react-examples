@@ -57,8 +57,8 @@ class Searchbox extends Component {
               <Marker
                 key={place.id}
                 text={place.name}
-                lat={place.geometry.location.lat}
-                lng={place.geometry.location.lng}
+                lat={place.geometry.location.lat()}
+                lng={place.geometry.location.lng()}
               />
             ))}
         </GoogleMap>
