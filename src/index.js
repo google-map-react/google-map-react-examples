@@ -17,19 +17,17 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-  <div>
-    <Router>
-      <App>
-        <Switch>
-          <Route exact path={process.env.REACT_APP_BASE_PATH} component={Home} />
-          {/* New examples here */}
-          <Route path="/default" component={Main} />
-          <Route path="/searchbox" component={SearchBox} />
-          <Redirect exact from="*" to={process.env.REACT_APP_BASE_PATH} />
-        </Switch>
-      </App>
-    </Router>
-  </div>,
+  <Router>
+    <App>
+      <Switch>
+        <Route exact path={process.env.REACT_APP_BASE_PATH} component={Home} />
+        {/* New examples here */}
+        <Route path="/default" component={Main} />
+        <Route path="/searchbox" component={SearchBox} />
+        <Redirect exact from="*" to={process.env.REACT_APP_BASE_PATH} />
+      </Switch>
+    </App>
+  </Router>,
   document.getElementById('root'),
 );
 
