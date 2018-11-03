@@ -16,15 +16,17 @@ import App from './App';
 // utils
 import registerServiceWorker from './registerServiceWorker';
 
+const defaultPath = process.env.REACT_APP_BASE_PATH;
+
 ReactDOM.render(
   <Router>
     <App>
       <Switch>
-        <Route exact path={process.env.REACT_APP_BASE_PATH} component={Home} />
+        <Route exact path={defaultPath} component={Home} />
         {/* New examples here */}
-        <Route path="/default" component={Main} />
-        <Route path="/searchbox" component={SearchBox} />
-        <Redirect exact from="*" to={process.env.REACT_APP_BASE_PATH} />
+        <Route path={`${defaultPath}default`} component={Main} />
+        <Route path={`${defaultPath}searchbox`} component={SearchBox} />
+        <Redirect exact from="*" to={defaultPath} />
       </Switch>
     </App>
   </Router>,

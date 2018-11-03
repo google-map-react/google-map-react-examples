@@ -29,7 +29,6 @@ const ListItem = styled.li`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding: 15px 15px 15px 0;
   background: #fff;
   border-bottom: 1px solid #7f7f7f;
   cursor: pointer;
@@ -40,19 +39,24 @@ const ListItem = styled.li`
 `;
 
 const StyledLink = styled(Link)`
+  width: 100%;
+  padding: 15px 15px 15px 0;
   color: #000000;
   text-decoration: none;
+  text-align: center;
 `;
+
+const defaultPath = process.env.REACT_APP_BASE_PATH;
 
 const Home = () => (
   <Wrapper>
     <h1>google-map-react examples</h1>
     <List>
       <ListItem>
-        <StyledLink to="/default">Default</StyledLink>
+        <StyledLink to={`${defaultPath}default`}>Default</StyledLink>
       </ListItem>
       <ListItem>
-        <StyledLink to="/searchbox">SearchBox</StyledLink>
+        <StyledLink to={`${defaultPath}searchbox`}>SearchBox</StyledLink>
       </ListItem>
     </List>
   </Wrapper>
