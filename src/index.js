@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {
-  Route,
-  Switch,
-  Redirect,
-  BrowserRouter as Router,
-} from 'react-router-dom';
+import { Route, Switch, Redirect, BrowserRouter as Router } from 'react-router-dom';
 
 // examples:
+import Home from './Home';
 import Main from './examples/Main';
+import SearchBox from './examples/Searchbox';
 
 // styles
 import './index.css';
@@ -19,13 +16,17 @@ import App from './App';
 // utils
 import registerServiceWorker from './registerServiceWorker';
 
+const defaultPath = process.env.REACT_APP_BASE_PATH;
+
 ReactDOM.render(
   <Router>
     <App>
       <Switch>
-        <Route exact path={process.env.BASE_PATH} component={Main} />
+        <Route exact path={defaultPath} component={Home} />
         {/* New examples here */}
-        <Redirect exact from="*" to={process.env.BASE_PATH} />
+        <Route path={`${defaultPath}default`} component={Main} />
+        <Route path={`${defaultPath}searchbox`} component={SearchBox} />
+        <Redirect exact from="*" to={defaultPath} />
       </Switch>
     </App>
   </Router>,
