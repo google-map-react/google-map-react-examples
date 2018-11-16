@@ -1,11 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {
-  Route,
-  Switch,
-  Redirect,
-  BrowserRouter as Router
-} from 'react-router-dom';
+import { Route, Switch, Redirect, BrowserRouter as Router } from 'react-router-dom';
 
 // examples:
 import Home from './Home';
@@ -37,7 +32,7 @@ ReactDOM.render(
       </Switch>
     </App>
   </Router>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 
 registerServiceWorker();

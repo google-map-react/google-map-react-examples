@@ -24,7 +24,7 @@ class AutoComplete extends Component {
     };
     this.autoComplete = new mapApi.places.Autocomplete(
       this.searchInput,
-      options
+      options,
     );
     this.autoComplete.addListener('place_changed', this.onPlaceChanged);
     this.autoComplete.bindTo('bounds', map);
@@ -57,7 +57,7 @@ class AutoComplete extends Component {
     return (
       <Wrapper>
         <input
-          ref={ref => {
+          ref={(ref) => {
             this.searchInput = ref;
           }}
           type="text"
