@@ -58,6 +58,9 @@ const Home = () => (
       <ListItem>
         <StyledLink to={`${defaultPath}searchbox`}>SearchBox</StyledLink>
       </ListItem>
+      <ListItem>
+        <StyledLink to={`${defaultPath}autocomplete`}>Autocomplete</StyledLink>
+      </ListItem>
     </List>
   </Wrapper>
 );
