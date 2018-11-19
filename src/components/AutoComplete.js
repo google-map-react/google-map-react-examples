@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import styled from 'styled-components';
+import React, { Component } from "react";
+import styled from "styled-components";
 
 const Wrapper = styled.div`
   position: relative;
@@ -24,10 +24,10 @@ class AutoComplete extends Component {
     };
     this.autoComplete = new mapApi.places.Autocomplete(
       this.searchInput,
-      options,
+      options
     );
-    this.autoComplete.addListener('place_changed', this.onPlaceChanged);
-    this.autoComplete.bindTo('bounds', map);
+    this.autoComplete.addListener("place_changed", this.onPlaceChanged);
+    this.autoComplete.bindTo("bounds", map);
   }
 
   componentWillUnmount({ mapApi } = this.props) {
@@ -50,14 +50,14 @@ class AutoComplete extends Component {
   };
 
   clearSearchBox() {
-    this.searchInput.value = '';
+    this.searchInput.value = "";
   }
 
   render() {
     return (
       <Wrapper>
         <input
-          ref={(ref) => {
+          ref={ref => {
             this.searchInput = ref;
           }}
           type="text"

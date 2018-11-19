@@ -1,15 +1,15 @@
-import React, { Component, Fragment } from 'react';
-import isEmpty from 'lodash.isempty';
+import React, { Component, Fragment } from "react";
+import isEmpty from "lodash.isempty";
 
 // components:
-import Marker from '../components/Marker';
+import Marker from "../components/Marker";
 
 // examples:
-import GoogleMap from '../components/GoogleMap';
-import SearchBox from '../components/SearchBox';
+import GoogleMap from "../components/GoogleMap";
+import SearchBox from "../components/SearchBox";
 
 // consts
-import LOS_ANGELES_CENTER from '../const/la_center';
+import LOS_ANGELES_CENTER from "../const/la_center";
 
 class Searchbox extends Component {
   constructor(props) {
@@ -19,7 +19,7 @@ class Searchbox extends Component {
       mapApiLoaded: false,
       mapInstance: null,
       mapApi: null,
-      places: [],
+      places: []
     };
   }
 
@@ -27,27 +27,31 @@ class Searchbox extends Component {
     this.setState({
       mapApiLoaded: true,
       mapInstance: map,
-      mapApi: maps,
+      mapApi: maps
     });
   };
 
-  addPlace = (place) => {
+  addPlace = place => {
     this.setState({ places: place });
   };
 
   render() {
-    const {
-      places, mapApiLoaded, mapInstance, mapApi,
-    } = this.state;
+    const { places, mapApiLoaded, mapInstance, mapApi } = this.state;
     return (
       <Fragment>
-        {mapApiLoaded && <SearchBox map={mapInstance} mapApi={mapApi} addplace={this.addPlace} />}
+        {mapApiLoaded && (
+          <SearchBox
+            map={mapInstance}
+            mapApi={mapApi}
+            addplace={this.addPlace}
+          />
+        )}
         <GoogleMap
           defaultZoom={10}
           defaultCenter={LOS_ANGELES_CENTER}
           bootstrapURLKeys={{
             key: process.env.REACT_APP_MAP_KEY,
-            libraries: ['places', 'geometry'],
+            libraries: ["places", "geometry"]
           }}
           yesIWantToUseGoogleMapApiInternals
           onGoogleApiLoaded={({ map, maps }) => this.apiHasLoaded(map, maps)}

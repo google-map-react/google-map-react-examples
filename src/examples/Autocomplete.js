@@ -1,15 +1,15 @@
-import React, { Component, Fragment } from 'react';
-import isEmpty from 'lodash.isempty';
+import React, { Component, Fragment } from "react";
+import isEmpty from "lodash.isempty";
 
 // components:
-import Marker from '../components/Marker';
+import Marker from "../components/Marker";
 
 // examples:
-import GoogleMap from '../components/GoogleMap';
-import AutoComplete from '../components/AutoComplete';
+import GoogleMap from "../components/GoogleMap";
+import AutoComplete from "../components/AutoComplete";
 
 // consts
-import LOS_ANGELES_CENTER from '../const/la_center';
+import LOS_ANGELES_CENTER from "../const/la_center";
 
 class Autocomplete extends Component {
   constructor(props) {
@@ -19,7 +19,7 @@ class Autocomplete extends Component {
       mapApiLoaded: false,
       mapInstance: null,
       mapApi: null,
-      places: [],
+      places: []
     };
   }
 
@@ -27,29 +27,31 @@ class Autocomplete extends Component {
     this.setState({
       mapApiLoaded: true,
       mapInstance: map,
-      mapApi: maps,
+      mapApi: maps
     });
   };
 
-  addPlace = (place) => {
+  addPlace = place => {
     this.setState({ places: [place] });
   };
 
   render() {
-    const {
-      places, mapApiLoaded, mapInstance, mapApi,
-    } = this.state;
+    const { places, mapApiLoaded, mapInstance, mapApi } = this.state;
     return (
       <Fragment>
         {mapApiLoaded && (
-          <AutoComplete map={mapInstance} mapApi={mapApi} addplace={this.addPlace} />
+          <AutoComplete
+            map={mapInstance}
+            mapApi={mapApi}
+            addplace={this.addPlace}
+          />
         )}
         <GoogleMap
           defaultZoom={10}
           defaultCenter={LOS_ANGELES_CENTER}
           bootstrapURLKeys={{
             key: process.env.REACT_APP_MAP_KEY,
-            libraries: ['places', 'geometry'],
+            libraries: ["places", "geometry"]
           }}
           yesIWantToUseGoogleMapApiInternals
           onGoogleApiLoaded={({ map, maps }) => this.apiHasLoaded(map, maps)}

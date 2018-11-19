@@ -1,32 +1,31 @@
-import React, { Component, Fragment } from 'react';
-import isEmpty from 'lodash.isempty';
+import React, { Component, Fragment } from "react";
+import isEmpty from "lodash.isempty";
 
 // components:
-import Marker from '../components/Marker';
+import Marker from "../components/Marker";
 
 // examples:
-import GoogleMap from '../components/GoogleMap';
+import GoogleMap from "../components/GoogleMap";
 
 // consts
-import LOS_ANGELES_CENTER from '../const/la_center';
+import LOS_ANGELES_CENTER from "../const/la_center";
 
 // Return map bounds based on list of places
 const getMapBounds = (map, maps, places) => {
   const bounds = new maps.LatLngBounds();
 
-  places.forEach((place) => {
-    bounds.extend(new maps.LatLng(
-      place.geometry.location.lat,
-      place.geometry.location.lng,
-    ));
+  places.forEach(place => {
+    bounds.extend(
+      new maps.LatLng(place.geometry.location.lat, place.geometry.location.lng)
+    );
   });
   return bounds;
 };
 
 // Re-center map when resizing the window
 const bindResizeListener = (map, maps, bounds) => {
-  maps.event.addDomListenerOnce(map, 'idle', () => {
-    maps.event.addDomListener(window, 'resize', () => {
+  maps.event.addDomListenerOnce(map, "idle", () => {
+    maps.event.addDomListener(window, "resize", () => {
       map.fitBounds(bounds);
     });
   });
@@ -47,12 +46,12 @@ class Main extends Component {
     super(props);
 
     this.state = {
-      places: [],
+      places: []
     };
   }
 
   componentDidMount() {
-    fetch('places.json')
+    fetch("places.json")
       .then(response => response.json())
       .then(data => this.setState({ places: data.results }));
   }
@@ -66,7 +65,9 @@ class Main extends Component {
             defaultZoom={10}
             defaultCenter={LOS_ANGELES_CENTER}
             yesIWantToUseGoogleMapApiInternals
-            onGoogleApiLoaded={({ map, maps }) => apiIsLoaded(map, maps, places)}
+            onGoogleApiLoaded={({ map, maps }) =>
+              apiIsLoaded(map, maps, places)
+            }
           >
             {places.map(place => (
               <Marker

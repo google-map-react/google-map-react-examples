@@ -1,21 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Route, Switch, Redirect, BrowserRouter as Router } from 'react-router-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import {
+  Route,
+  Switch,
+  Redirect,
+  BrowserRouter as Router
+} from "react-router-dom";
 
 // examples:
-import Home from './Home';
-import Main from './examples/Main';
-import SearchBox from './examples/Searchbox';
-import Autocomplete from './examples/Autocomplete';
+import Home from "./Home";
+import Main from "./examples/Main";
+import SearchBox from "./examples/Searchbox";
+import Autocomplete from "./examples/Autocomplete";
 
 // styles
-import './index.css';
+import "./index.css";
 
 // components
-import App from './App';
+import App from "./App";
 
 // utils
-import registerServiceWorker from './registerServiceWorker';
+import registerServiceWorker from "./registerServiceWorker";
 
 const defaultPath = process.env.REACT_APP_BASE_PATH;
 
@@ -32,7 +37,7 @@ ReactDOM.render(
       </Switch>
     </App>
   </Router>,
-  document.getElementById('root'),
+  document.getElementById("root")
 );
 
 registerServiceWorker();
