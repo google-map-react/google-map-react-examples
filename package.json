@@ -25,10 +25,12 @@
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-prettier": "3.3.0",
     "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.7.0",
+    "eslint-plugin-prettier": "3.0.0",
+    "eslint-plugin-react": "7.11.1",
     "gh-pages": "^1.2.0",
     "husky": "1.1.4",
     "lint-staged": "8.0.5",
@@ -42,7 +44,7 @@
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
       "prettier --write",
-      "eslint src",
+      "eslint src --fix",
       "git add"
     ]
   }
