@@ -1,16 +1,13 @@
 import React, { Component, Fragment } from 'react';
 import isEmpty from 'lodash.isempty';
 
-// components:
-import Marker from '../components/Marker';
-
 // examples:
 import GoogleMap from '../components/GoogleMap';
 
 // consts
 import LOS_ANGELES_CENTER from '../const/la_center';
 
-class Main extends Component {
+class Heatmap extends Component {
   constructor(props) {
     super(props);
 
@@ -27,22 +24,28 @@ class Main extends Component {
 
   render() {
     const { places } = this.state;
-    const data = places.map(place => ({ lat: place.geometry.location.lat, lng: place.geometry.location.lng, weight: 4 }));
-    const heatmapData = {positions: data, options: {
-      radius: 20,
-      opacity: 1,
-    } }
-    console.log(heatmapData);
+    const data = places.map(place => ({
+      lat: place.geometry.location.lat,
+      lng: place.geometry.location.lng,
+      weight: Math.floor(Math.random() * Math.floor(5)),
+    }));
+    const heatmapData = {
+      positions: data,
+      options: {
+        radius: 20,
+        opacity: 1,
+      },
+    };
+
     return (
       <Fragment>
         {!isEmpty(places) && (
           <GoogleMap
             defaultZoom={10}
             defaultCenter={LOS_ANGELES_CENTER}
-            heatmapLibrary={true}
+            heatmapLibrary
             heatmap={heatmapData}
-          >
-          </GoogleMap>
+          />
         )}
       </Fragment>
     );
