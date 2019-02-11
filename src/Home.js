@@ -61,6 +61,9 @@ const Home = () => (
       <ListItem>
         <StyledLink to={`${defaultPath}autocomplete`}>Autocomplete</StyledLink>
       </ListItem>
+      <ListItem>
+        <StyledLink to={`${defaultPath}heatmap`}>Heatmap</StyledLink>
+      </ListItem>
     </List>
   </Wrapper>
 );
