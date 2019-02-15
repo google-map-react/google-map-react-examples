@@ -56,13 +56,13 @@ const Home = () => (
         <StyledLink to={`${defaultPath}default`}>Default</StyledLink>
       </ListItem>
       <ListItem>
+        <StyledLink to={`${defaultPath}heatmap`}>Heatmap</StyledLink>
+      </ListItem>
+      <ListItem>
         <StyledLink to={`${defaultPath}searchbox`}>SearchBox</StyledLink>
       </ListItem>
       <ListItem>
         <StyledLink to={`${defaultPath}autocomplete`}>Autocomplete</StyledLink>
-      </ListItem>
-      <ListItem>
-        <StyledLink to={`${defaultPath}heatmap`}>Heatmap</StyledLink>
       </ListItem>
     </List>
   </Wrapper>
