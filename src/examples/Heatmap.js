@@ -43,8 +43,11 @@ class Heatmap extends Component {
           <GoogleMap
             defaultZoom={10}
             defaultCenter={LOS_ANGELES_CENTER}
-            heatmapLibrary
             heatmap={heatmapData}
+            bootstrapURLKeys={{
+              key: process.env.REACT_APP_MAP_KEY,
+              libraries: ['visualization'],
+            }}
           />
         )}
       </Fragment>
