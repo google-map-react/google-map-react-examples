@@ -7,8 +7,7 @@ import GoogleMap from '../components/GoogleMap';
 // consts: [34.0522, -118.2437]
 import LOS_ANGELES_CENTER from '../const/la_center';
 
-const getInfoWindowString = place => {
-  return `
+const getInfoWindowString = place => `
     <div>
       <div style="font-size: 16px;">
         ${place.name}
@@ -23,26 +22,25 @@ const getInfoWindowString = place => {
         ${place.types[0]}
       </div>
       <div style="font-size: 14px; color: grey;">
-        ${"$".repeat(place.price_level)}
+        ${'$'.repeat(place.price_level)}
       </div>
       <div style="font-size: 14px; color: green;">
-        ${place.opening_hours.open_now ? "Open" : "Closed"}
+        ${place.opening_hours.open_now ? 'Open' : 'Closed'}
       </div>
     </div>`;
-};
 
 // Refer to https://github.com/google-map-react/google-map-react#use-google-maps-api
 const handleApiLoaded = (map, maps, places) => {
-  var markers = [];
-  var infowindows = [];
+  const markers = [];
+  const infowindows = [];
 
-  places.forEach(place => {
+  places.forEach((place) => {
     markers.push(new maps.Marker({
       position: {
         lat: place.geometry.location.lat,
         lng: place.geometry.location.lng,
       },
-      map: map,
+      map,
     }));
 
     infowindows.push(new maps.InfoWindow({
@@ -51,7 +49,7 @@ const handleApiLoaded = (map, maps, places) => {
   });
 
   markers.forEach((marker, i) => {
-    marker.addListener("click", () => {
+    marker.addListener('click', () => {
       infowindows[i].open(map, marker);
     });
   });
@@ -69,9 +67,9 @@ class MarkerInfoWindowGmapsObj extends Component {
   componentDidMount() {
     fetch('places.json')
       .then(response => response.json())
-      .then(data => {
-        data.results.forEach(result => {
-          result.show = false;
+      .then((data) => {
+        data.results.forEach((result) => {
+          result.show = false; // eslint-disable-line no-param-reassign
         });
         this.setState({ places: data.results });
       });
@@ -86,9 +84,9 @@ class MarkerInfoWindowGmapsObj extends Component {
           <GoogleMap
             defaultZoom={10}
             defaultCenter={LOS_ANGELES_CENTER}
-            bootstrapURLKeys={{key: process.env.REACT_APP_MAP_KEY}}
+            bootstrapURLKeys={{ key: process.env.REACT_APP_MAP_KEY }}
             yesIWantToUseGoogleMapApiInternals
-            onGoogleApiLoaded={({map, maps}) => handleApiLoaded(map, maps, places)}
+            onGoogleApiLoaded={({ map, maps }) => handleApiLoaded(map, maps, places)}
           />
         )}
       </Fragment>
