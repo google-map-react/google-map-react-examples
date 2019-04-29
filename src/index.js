@@ -8,6 +8,8 @@ import Main from './examples/Main';
 import Heatmap from './examples/Heatmap';
 import SearchBox from './examples/Searchbox';
 import Autocomplete from './examples/Autocomplete';
+import MarkerInfoWindow from './examples/MarkerInfoWindow';
+import MarkerInfoWindowGmapsObj from './examples/MarkerInfoWindowGmapsObj';
 
 // styles
 import './index.css';
@@ -30,6 +32,8 @@ ReactDOM.render(
         <Route path={`${defaultPath}heatmap`} component={Heatmap} />
         <Route path={`${defaultPath}searchbox`} component={SearchBox} />
         <Route path={`${defaultPath}autocomplete`} component={Autocomplete} />
+        <Route path={`${defaultPath}marker-info-window`} component={MarkerInfoWindow} />
+        <Route path={`${defaultPath}marker-info-window-gmaps-obj`} component={MarkerInfoWindowGmapsObj} />
         <Redirect exact from="*" to={defaultPath} />
       </Switch>
     </App>

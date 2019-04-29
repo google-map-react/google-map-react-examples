@@ -64,6 +64,12 @@ const Home = () => (
       <ListItem>
         <StyledLink to={`${defaultPath}autocomplete`}>Autocomplete</StyledLink>
       </ListItem>
+      <ListItem>
+        <StyledLink to={`${defaultPath}marker-info-window`}>Marker and Info Window (React Component)</StyledLink>
+      </ListItem>
+      <ListItem>
+        <StyledLink to={`${defaultPath}marker-info-window-gmaps-obj`}>Marker and Info Window (Google Maps API Object)</StyledLink>
+      </ListItem>
     </List>
   </Wrapper>
 );
