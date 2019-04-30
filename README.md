@@ -11,6 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Examples:
 
 - [Main](https://google-map-react.github.io/google-map-react-examples/default), [source](https://github.com/google-map-react/google-map-react-examples/blob/master/src/examples/Main.js)
+- [Heatmap](https://google-map-react.github.io/google-map-react-examples/heatmap), [source](https://github.com/google-map-react/google-map-react-examples/blob/master/src/examples/Heatmap.js)
 - [Searchbox](https://google-map-react.github.io/google-map-react-examples/searchbox), [source](https://github.com/google-map-react/google-map-react-examples/blob/master/src/examples/Searchbox.js)
 - [Autocomplete](https://google-map-react.github.io/google-map-react-examples/autocomplete), [source](https://github.com/google-map-react/google-map-react-examples/blob/master/src/examples/Searchbox.js)
 
