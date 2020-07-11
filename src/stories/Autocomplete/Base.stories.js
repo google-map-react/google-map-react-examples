@@ -1,21 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Main from '../../examples/Main';
+import AutoComplete from '../../examples/AutoComplete';
 
 export default {
-  title: 'Simple examples',
+  title: 'AutoComplete examples',
 };
 
 export const Base = () => (
   <Wrapper>
-    <Main />
+    <AutoComplete />
   </Wrapper>
 );
-
-Base.story = {
-  name: 'Main',
-};
 
 const Wrapper = styled.section`
   width: 100vw;
