@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import AutoComplete from '../../examples/AutoComplete';
 
 export default {
-  title: 'AutoComplete examples',
+  title: 'AutoComplete Examples',
 };
 
 export const Base = () => (

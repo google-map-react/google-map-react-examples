@@ -5,7 +5,7 @@ import MarkerInfoWindow from '../../examples/MarkerInfoWindow';
 import MarkerInfoWindowGmapsObj from '../../examples/MarkerInfoWindowGmapsObj';
 
 export default {
-  title: 'MarkerInfo examples',
+  title: 'MarkerInfo Examples',
 };
 
 

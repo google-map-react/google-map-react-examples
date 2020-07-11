@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import Heatmap from '../../examples/Heatmap';
 
 export default {
-  title: 'Heatmap examples',
+  title: 'Heatmap Examples',
 };
 
 export const Base = () => (

@@ -1,15 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Main from '../../examples/Main';
+import Searchbox from '../../examples/Searchbox';
 
 export default {
-  title: 'Main Examples',
+  title: 'Searchbox Examples',
 };
 
 export const Base = () => (
   <Wrapper>
-    <Main />
+    <Searchbox />
   </Wrapper>
 );
 
