@@ -7,7 +7,6 @@ module.exports = {
       "error",
       {
         devDependencies: [
-          ".storybook/**",
           "src/stories/**",
         ]
       }
