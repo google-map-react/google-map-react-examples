@@ -133,9 +133,11 @@ InfoWindow.propTypes = {
     name: PropTypes.string,
     formatted_address: PropTypes.string,
     rating: PropTypes.number,
-    types: PropTypes.array,
+    types: PropTypes.arrayOf(PropTypes.string),
     price_level: PropTypes.number,
-    opening_hours: PropTypes.object,
+    opening_hours: PropTypes.shape({
+      open_now: PropTypes.bool,
+    }),
   }).isRequired,
 };
 
@@ -145,9 +147,11 @@ Marker.propTypes = {
     name: PropTypes.string,
     formatted_address: PropTypes.string,
     rating: PropTypes.number,
-    types: PropTypes.array,
+    types: PropTypes.arrayOf(PropTypes.string),
     price_level: PropTypes.number,
-    opening_hours: PropTypes.object,
+    opening_hours: PropTypes.shape({
+      open_now: PropTypes.bool,
+    }),
   }).isRequired,
 };
 

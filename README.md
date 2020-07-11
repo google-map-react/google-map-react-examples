@@ -10,12 +10,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Examples
 
-- [Main](https://google-map-react.github.io/google-map-react-examples/default) ([source](https://github.com/google-map-react/google-map-react-examples/blob/master/src/examples/Main.js))
-- [Heatmap](https://google-map-react.github.io/google-map-react-examples/heatmap) ([source](https://github.com/google-map-react/google-map-react-examples/blob/master/src/examples/Heatmap.js))
-- [Searchbox](https://google-map-react.github.io/google-map-react-examples/searchbox) ([source](https://github.com/google-map-react/google-map-react-examples/blob/master/src/examples/Searchbox.js))
-- [Autocomplete](https://google-map-react.github.io/google-map-react-examples/autocomplete) ([source](https://github.com/google-map-react/google-map-react-examples/blob/master/src/examples/Searchbox.js))
-- [Marker and Info Window using React Component](https://google-map-react.github.io/google-map-react-examples/marker-info-window) ([source](https://github.com/google-map-react/google-map-react-examples/blob/master/src/examples/MarkerInfoWindow.js))
-- [Marker and Info Window using Google Maps API Object](https://google-map-react.github.io/google-map-react-examples/marker-info-window-gmaps-obj) ([source](https://github.com/google-map-react/google-map-react-examples/blob/master/src/examples/MarkerInfoWindowGmapsObj.js))
+- [Main](https://google-map-react.github.io/google-map-react-examples/?path=/story/main-examples--base) ([source](https://github.com/google-map-react/google-map-react-examples/blob/master/src/examples/Main.js))
+- [Heatmap](https://google-map-react.github.io/google-map-react-examples/?path=/story/heatmap-examples--base) ([source](https://github.com/google-map-react/google-map-react-examples/blob/master/src/examples/Heatmap.js))
+- [Searchbox](https://google-map-react.github.io/google-map-react-examples/?path=/story/searchbox-examples--base) ([source](https://github.com/google-map-react/google-map-react-examples/blob/master/src/examples/Searchbox.js))
+- [Autocomplete](https://google-map-react.github.io/google-map-react-examples/?path=/story/autocomplete-examples--base) ([source](https://github.com/google-map-react/google-map-react-examples/blob/master/src/examples/Searchbox.js))
+- [Marker and Info Window using React Component](https://google-map-react.github.io/google-map-react-examples/?path=/story/markerinfo-examples--custom-component) ([source](https://github.com/google-map-react/google-map-react-examples/blob/master/src/examples/MarkerInfoWindow.js))
+- [Marker and Info Window using Google Maps API Object](https://google-map-react.github.io/google-map-react-examples/?path=/story/markerinfo-examples--default-marker) ([source](https://github.com/google-map-react/google-map-react-examples/blob/master/src/examples/MarkerInfoWindowGmapsObj.js))
 
 ## Getting started
 
