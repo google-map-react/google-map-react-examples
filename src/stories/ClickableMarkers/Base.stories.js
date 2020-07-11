@@ -8,15 +8,16 @@ export default {
   title: 'MarkerInfo examples',
 };
 
-export const Base = () => (
+
+export const DefaultMarker = () => (
   <Wrapper>
-    <MarkerInfoWindow />
+    <MarkerInfoWindowGmapsObj />
   </Wrapper>
 );
 
-export const GmapsObj = () => (
+export const CustomComponent = () => (
   <Wrapper>
-    <MarkerInfoWindowGmapsObj />
+    <MarkerInfoWindow />
   </Wrapper>
 );
 
