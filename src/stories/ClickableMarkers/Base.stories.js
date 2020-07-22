@@ -8,7 +8,6 @@ export default {
   title: 'MarkerInfo Examples',
 };
 
-
 export const DefaultMarker = () => (
   <Wrapper>
     <MarkerInfoWindowGmapsObj />
