@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import isEmpty from 'lodash.isempty';
 
@@ -54,13 +54,13 @@ const InfoWindow = (props) => {
 };
 
 // Marker component
-const Marker = (props) => {
+const Marker = ({ show, place }) => {
   const markerStyle = {
     border: '1px solid white',
     borderRadius: '50%',
     height: 10,
     width: 10,
-    backgroundColor: props.show ? 'red' : 'blue',
+    backgroundColor: show ? 'red' : 'blue',
     cursor: 'pointer',
     zIndex: 10,
   };
@@ -68,7 +68,7 @@ const Marker = (props) => {
   return (
     <>
       <div style={markerStyle} />
-      {props.show && <InfoWindow place={props.place} />}
+      {show && <InfoWindow place={place} />}
     </>
   );
 };

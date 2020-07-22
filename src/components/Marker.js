@@ -19,10 +19,10 @@ const Wrapper = styled.div`
   }
 `;
 
-const Marker = (props) => (
+const Marker = ({ text, onClick }) => (
   <Wrapper
-    alt={props.text}
-    {...props.onClick ? { onClick: props.onClick } : {}}
+    alt={text}
+    onClick={onClick}
   />
 );
 
