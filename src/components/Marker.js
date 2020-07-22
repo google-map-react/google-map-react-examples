@@ -13,16 +13,16 @@ const Wrapper = styled.div`
   border-radius: 100%;
   user-select: none;
   transform: translate(-50%, -50%);
-  cursor: ${props => (props.onClick ? 'pointer' : 'default')};
+  cursor: ${(props) => (props.onClick ? 'pointer' : 'default')};
   &:hover {
     z-index: 1;
   }
 `;
 
-const Marker = props => (
+const Marker = ({ text, onClick }) => (
   <Wrapper
-    alt={props.text}
-    {...props.onClick ? { onClick: props.onClick } : {}}
+    alt={text}
+    onClick={onClick}
   />
 );
 

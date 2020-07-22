@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import isEmpty from 'lodash.isempty';
 
 // components:
@@ -53,14 +53,14 @@ class Main extends Component {
 
   componentDidMount() {
     fetch('places.json')
-      .then(response => response.json())
-      .then(data => this.setState({ places: data.results }));
+      .then((response) => response.json())
+      .then((data) => this.setState({ places: data.results }));
   }
 
   render() {
     const { places } = this.state;
     return (
-      <Fragment>
+      <>
         {!isEmpty(places) && (
           <GoogleMap
             defaultZoom={10}
@@ -68,7 +68,7 @@ class Main extends Component {
             yesIWantToUseGoogleMapApiInternals
             onGoogleApiLoaded={({ map, maps }) => apiIsLoaded(map, maps, places)}
           >
-            {places.map(place => (
+            {places.map((place) => (
               <Marker
                 key={place.id}
                 text={place.name}
@@ -78,7 +78,7 @@ class Main extends Component {
             ))}
           </GoogleMap>
         )}
-      </Fragment>
+      </>
     );
   }
 }

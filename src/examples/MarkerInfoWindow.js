@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import isEmpty from 'lodash.isempty';
 
@@ -30,7 +30,8 @@ const InfoWindow = (props) => {
       </div>
       <div style={{ fontSize: 14 }}>
         <span style={{ color: 'grey' }}>
-          {place.rating}{' '}
+          {place.rating}
+          {' '}
         </span>
         <span style={{ color: 'orange' }}>
           {String.fromCharCode(9733).repeat(Math.floor(place.rating))}
@@ -53,22 +54,22 @@ const InfoWindow = (props) => {
 };
 
 // Marker component
-const Marker = (props) => {
+const Marker = ({ show, place }) => {
   const markerStyle = {
     border: '1px solid white',
     borderRadius: '50%',
     height: 10,
     width: 10,
-    backgroundColor: props.show ? 'red' : 'blue',
+    backgroundColor: show ? 'red' : 'blue',
     cursor: 'pointer',
     zIndex: 10,
   };
 
   return (
-    <Fragment>
+    <>
       <div style={markerStyle} />
-      {props.show && <InfoWindow place={props.place} />}
-    </Fragment>
+      {show && <InfoWindow place={place} />}
+    </>
   );
 };
 
@@ -83,7 +84,7 @@ class MarkerInfoWindow extends Component {
 
   componentDidMount() {
     fetch('places.json')
-      .then(response => response.json())
+      .then((response) => response.json())
       .then((data) => {
         data.results.forEach((result) => {
           result.show = false; // eslint-disable-line no-param-reassign
@@ -95,7 +96,7 @@ class MarkerInfoWindow extends Component {
   // onChildClick callback can take two arguments: key and childProps
   onChildClickCallback = (key) => {
     this.setState((state) => {
-      const index = state.places.findIndex(e => e.id === key);
+      const index = state.places.findIndex((e) => e.id === key);
       state.places[index].show = !state.places[index].show; // eslint-disable-line no-param-reassign
       return { places: state.places };
     });
@@ -105,7 +106,7 @@ class MarkerInfoWindow extends Component {
     const { places } = this.state;
 
     return (
-      <Fragment>
+      <>
         {!isEmpty(places) && (
           <GoogleMap
             defaultZoom={10}
@@ -113,17 +114,18 @@ class MarkerInfoWindow extends Component {
             bootstrapURLKeys={{ key: process.env.REACT_APP_MAP_KEY }}
             onChildClick={this.onChildClickCallback}
           >
-            {places.map(place =>
-              (<Marker
+            {places.map((place) => (
+              <Marker
                 key={place.id}
                 lat={place.geometry.location.lat}
                 lng={place.geometry.location.lng}
                 show={place.show}
                 place={place}
-              />))}
+              />
+            ))}
           </GoogleMap>
         )}
-      </Fragment>
+      </>
     );
   }
 }

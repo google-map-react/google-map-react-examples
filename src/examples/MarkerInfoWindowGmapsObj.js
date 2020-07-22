@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import isEmpty from 'lodash.isempty';
 
 // examples:
@@ -7,7 +7,7 @@ import GoogleMap from '../components/GoogleMap';
 // consts: [34.0522, -118.2437]
 import LOS_ANGELES_CENTER from '../const/la_center';
 
-const getInfoWindowString = place => `
+const getInfoWindowString = (place) => `
     <div>
       <div style="font-size: 16px;">
         ${place.name}
@@ -66,7 +66,7 @@ class MarkerInfoWindowGmapsObj extends Component {
 
   componentDidMount() {
     fetch('places.json')
-      .then(response => response.json())
+      .then((response) => response.json())
       .then((data) => {
         data.results.forEach((result) => {
           result.show = false; // eslint-disable-line no-param-reassign
@@ -79,7 +79,7 @@ class MarkerInfoWindowGmapsObj extends Component {
     const { places } = this.state;
 
     return (
-      <Fragment>
+      <>
         {!isEmpty(places) && (
           <GoogleMap
             defaultZoom={10}
@@ -89,7 +89,7 @@ class MarkerInfoWindowGmapsObj extends Component {
             onGoogleApiLoaded={({ map, maps }) => handleApiLoaded(map, maps, places)}
           />
         )}
-      </Fragment>
+      </>
     );
   }
 }

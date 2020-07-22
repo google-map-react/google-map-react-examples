@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import isEmpty from 'lodash.isempty';
 
 // components:
@@ -40,7 +40,7 @@ class Autocomplete extends Component {
       places, mapApiLoaded, mapInstance, mapApi,
     } = this.state;
     return (
-      <Fragment>
+      <>
         {mapApiLoaded && (
           <AutoComplete map={mapInstance} mapApi={mapApi} addplace={this.addPlace} />
         )}
@@ -54,8 +54,8 @@ class Autocomplete extends Component {
           yesIWantToUseGoogleMapApiInternals
           onGoogleApiLoaded={({ map, maps }) => this.apiHasLoaded(map, maps)}
         >
-          {!isEmpty(places) &&
-            places.map(place => (
+          {!isEmpty(places)
+            && places.map((place) => (
               <Marker
                 key={place.id}
                 text={place.name}
@@ -64,7 +64,7 @@ class Autocomplete extends Component {
               />
             ))}
         </GoogleMap>
-      </Fragment>
+      </>
     );
   }
 }

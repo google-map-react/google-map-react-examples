@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import isEmpty from 'lodash.isempty';
 
 // examples:
@@ -18,13 +18,13 @@ class Heatmap extends Component {
 
   componentDidMount() {
     fetch('places.json')
-      .then(response => response.json())
-      .then(data => this.setState({ places: data.results }));
+      .then((response) => response.json())
+      .then((data) => this.setState({ places: data.results }));
   }
 
   render() {
     const { places } = this.state;
-    const data = places.map(place => ({
+    const data = places.map((place) => ({
       lat: place.geometry.location.lat,
       lng: place.geometry.location.lng,
       weight: Math.floor(Math.random() * Math.floor(5)),
@@ -38,7 +38,7 @@ class Heatmap extends Component {
     };
 
     return (
-      <Fragment>
+      <>
         {!isEmpty(places) && (
           <GoogleMap
             defaultZoom={10}
@@ -50,7 +50,7 @@ class Heatmap extends Component {
             }}
           />
         )}
-      </Fragment>
+      </>
     );
   }
 }

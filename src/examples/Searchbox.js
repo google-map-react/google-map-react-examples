@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import isEmpty from 'lodash.isempty';
 
 // components:
@@ -40,7 +40,7 @@ class Searchbox extends Component {
       places, mapApiLoaded, mapInstance, mapApi,
     } = this.state;
     return (
-      <Fragment>
+      <>
         {mapApiLoaded && <SearchBox map={mapInstance} mapApi={mapApi} addplace={this.addPlace} />}
         <GoogleMap
           defaultZoom={10}
@@ -52,8 +52,8 @@ class Searchbox extends Component {
           yesIWantToUseGoogleMapApiInternals
           onGoogleApiLoaded={({ map, maps }) => this.apiHasLoaded(map, maps)}
         >
-          {!isEmpty(places) &&
-            places.map(place => (
+          {!isEmpty(places)
+            && places.map((place) => (
               <Marker
                 key={place.id}
                 text={place.name}
@@ -62,7 +62,7 @@ class Searchbox extends Component {
               />
             ))}
         </GoogleMap>
-      </Fragment>
+      </>
     );
   }
 }
